@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nás | LSSD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:italic&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('obrazky/header.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .serif-italic { font-family: 'Playfair Display', serif; font-style: italic; }
+        .lssd-green { background-color: #1b431c; } 
+        .lssd-green-dark { background-color: #2e4623; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <nav class="flex items-center justify-center space-x-6 py-4 bg-white text-[15px] uppercase font-bold tracking-widest text-gray-700 border-b border-gray-100">
+        <img src="obrazky/lssd.png" alt="Logo" class="w-10">
+        <a href="index.html" class="hover:text-green-800">Home</a>
+        <a href="o-nas.html" class="text-green-900 border-b-2 border-green-800">O nás</a>
+        <a href="stiznosti.html" class="hover:text-green-800">Stížnosti</a>
+        <a href="divize.html" class="hover:text-green-800">Divize</a>
+        <a href="academy.html" class="hover:text-green-800 font-extrabold text-green-900">Přidej se!</a>
+    </nav>
+
+    <header class="hero-section h-[400px] flex flex-col items-center justify-center text-white text-center">
+        <h1 class="text-6xl font-bold uppercase tracking-widest drop-shadow-lg">O NÁS</h1>
+    </header>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="space-y-6 text-gray-700 leading-relaxed font-medium text-lg border-t border-b border-gray-100 py-12">
+                <p>
+                    Historie Los Santos Sheriff Department sahá až do roku 1850 kdy bylo zaznamenáno založení sboru společně s mottem kterým se řídí každý příslušník a to je „A tradition of Service“. Pro každého z příslušníků je tradice sloužit městu, a chránit jeho obyvatele. Vznik oddělení Sheriffa okresu Los Santos, které bylo revolucí pro tehdejší společnost, jelikož se jednalo o jeden z prvních sil zákona v okresu Los Santos.
+                </p>
+                <p>
+                    Roku 1853 se obyvatelé domluvili a stvořili dobrovolnou skupinu s názvem Los Santos Ranger, která se zabývala vymáháním zákona, a vypomáháním oddělení Sheriffů v Los Santos. Los Santos se stalo jedním z měst známým pro své násilí, chaos a neřest, ruka zákona tam nepanovala. To dospělo k vzniku další dobrovolné skupiny s názvem Los Santos City Guards.
+                </p>
+                <p>
+                    Nyní se posuneme o pár let vpřed, nacházíme se v roce 2009 dne 15. prosince kdy si správní rada okresu Los Santos odhlasovala sloučení Úřadu veřejné bezpečnosti s oddělením šerifa Los Santos. K fúzi došlo dne 30. června 2010. Ve městě Los Santos se opět vybudovala kriminalita a LSSD s touto kriminalitou usilovně a řádně bojovalo. Boj skončil roku 2016, kdy kriminalita upadla a snížila se o neuvěřitelných 34%. Za celou dobu od roku 1850 až do dnes ve službě zemřelo 129 příslušníků sboru, na které je vzpomínáno jako na hrdiny.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="lssd-green-dark py-16 text-white text-center">
+        <h2 class="text-3xl font-bold uppercase tracking-widest mb-12">Fotogalerie</h2>
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="aspect-video bg-gray-800 rounded shadow-xl border-2 border-white/10 overflow-hidden">
+                    <img src="obrazky/foto1.jpg" alt="Galerie" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                </div>
+                <div class="aspect-video bg-gray-800 rounded shadow-xl border-2 border-white/10 overflow-hidden">
+                    <img src="obrazky/foto2.jpg" alt="Galerie" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                </div>
+                <div class="aspect-video bg-gray-800 rounded shadow-xl border-2 border-white/10 overflow-hidden">
+                    <img src="obrazky/foto3.jpg" alt="Galerie" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                </div>
+                <div class="aspect-video bg-gray-800 rounded shadow-xl border-2 border-white/10 overflow-hidden">
+                    <img src="obrazky/foto4.jpg" alt="Galerie" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                </div>
+            </div>
+            <button class="mt-12 px-10 py-3 bg-white/10 border border-white/20 hover:bg-white/20 text-white rounded font-bold text-xs uppercase tracking-widest transition">
+                Zobrazit více fotografií
+            </button>
+        </div>
+    </section>
+
+    <footer class="py-12 lssd-green text-center text-white">
+        <img src="obrazky/lssd.png" alt="Logo" class="w-20 mx-auto mb-6 opacity-40">
+        <p class="text-[10px] text-gray-300 uppercase tracking-[0.2em] mb-4">
+            © 2026 Los Santos Sheriff's Department | Všechna práva vyhrazená.
+        </p>
+        <p class="text-[9px] text-gray-400 max-w-2xl mx-auto leading-loose italic px-4">
+            Tato stránka je určena výhradně pro účely FiveM Roleplay a nemá žádnou spojitost s reálnými státními složkami.
+        </p>
+    </footer>
+
+</body>
+</html>
